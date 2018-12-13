@@ -1,0 +1,1 @@
+java -Xverify:none -jar mhc.jar -mode=gui -fw=../

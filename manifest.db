@@ -1,0 +1,6 @@
+csp:70ED0B77-2528-4AEB-8256-1F60F9450C74
+core:BA6D8738-AEC0-45F0-BAD4-307AAE573C25
+root:../
+bsp:bsp/
+dfp:dev_packs/Microchip/
+cmsis:dev_packs/arm/CMSIS/
