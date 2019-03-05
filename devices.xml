@@ -4,4 +4,5 @@
     <Family name="PIC32MZ" regex="^PIC32MZ.*" template="np_templates/xc32_template"/>
     <Family name="PIC32C" regex="^PIC32C.*" template="np_templates/gcc_template"/>
     <Family name="ATSAM" regex="^ATSAM.*" template="np_templates/gcc_template"/>
+    <Family name="PIC32MK" regex="^PIC32MK.*" template="np_templates/xc32_template"/>
 </FamilyDefinitions>
