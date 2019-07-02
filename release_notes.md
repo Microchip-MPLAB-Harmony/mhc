@@ -5,6 +5,37 @@ See the following links and release notes for additional information.
  - [Welcome to MPLAB Harmony 3](https://github.com/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/wiki)
  - [www.microchip.com/harmony](https://www.microchip.com/harmony)
 
+## MPLAB Harmony 3 Configurator Release v3.3.1
+
+### New Features and Fixes
+- Fixed conflict in include directories upon changing device.
+- Fixed exception throwned if no diff tool was configured in standalone mode.
+
+### Known Issues
+- None
+
+### Development Tools
+- [MPLAB X IDE v5.20](https://www.microchip.com/mplab/mplab-x-ide)
+- [MPLAB XC32 C/C++ Compiler v2.20](https://www.microchip.com/mplab/compilers)
+- [IAR Embedded workbench for ARM (v8.32 or above)](https://www.iar.com/iar-embedded-workbench/#!?architecture=Arm)
+
+## MPLAB Harmony 3 Configurator Release v3.3.0
+
+### New Features and Fixes
+- Internal database management improved.
+- Added support of SAM9X60.
+- Fixed hardcoded links in Launcher.
+- Improved IAR project generator.
+- Fixed headless generator, used for continuous integration.
+
+### Known Issues
+- None
+
+### Development Tools
+- [MPLAB X IDE v5.15](https://www.microchip.com/mplab/mplab-x-ide)
+- [MPLAB XC32 C/C++ Compiler v2.15](https://www.microchip.com/mplab/compilers)
+- [IAR Embedded workbench for ARM (v8.32 or above)](https://www.iar.com/iar-embedded-workbench/#!?architecture=Arm)
+
 ## MPLAB Harmony 3 Configurator Release v3.2
 
 ### New Features and Fixes
@@ -20,7 +51,7 @@ See the following links and release notes for additional information.
 - [MPLAB X IDE v5.15](https://www.microchip.com/mplab/mplab-x-ide)
 - [MPLAB XC32 C/C++ Compiler v2.15](https://www.microchip.com/mplab/compilers)
 - [IAR Embedded workbench for ARM (v8.32 or above)](https://www.iar.com/iar-embedded-workbench/#!?architecture=Arm)
- 
+
 ## MPLAB Harmony 3 Configurator Release v3.1
 
 ### New Features and Fixes
