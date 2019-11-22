@@ -26,12 +26,28 @@ application starter code (usually in source form), based on the options chosen.
  - [Release Notes](./release_notes.md)
  - [MPLAB Harmony 3 MHC Wiki](https://github.com/Microchip-MPLAB-Harmony/mhc/wiki)
 
-# Contents Summary
+## Contents Summary
 
-| File/Folder  | Description                                                |
-|--------------|------------------------------------------------------------|
-| doc          | Help documentation and licenses for libraries used.        |
-| np_templates | New Project templates for supported toolchains.            |
-| *.jar        | Java implementations of MHC modules.                       |
-| mhc.jar      | Main Java executable (run: java -jar mhc.jar -h)           |
-| runmhc.bat   | Windows cmd batch file to run standalone MHC GUI.          |
+| File/Folder  			| Description                                             	|
+|-----------------------|-----------------------------------------------------------|
+| doc          			| Help documentation and licenses for libraries used.      	|
+| np_templates 			| New Project templates for supported toolchains.          	|
+| *.jar        			| Java implementations of MHC modules.                  	|
+| mhc.jar				| Main Java executable (run: java -jar mhc.jar -h)      	|
+| harmony-database.jar	| internal sub module to hold all symbols					|
+| databaseUI.jar		| internal sub module to show database 						|
+| mhc_utils.jar			| internal sub module for harmony utility					|
+| mplx_launcher.jar		| internal sub module used with MPLABX platform				|
+| runmhc.bat   			| Windows cmd batch file to run standalone MHC GUI.        	|
+
+## Open source Libraries
+Content manager uses following open sources libraries:
+
+| Library Name                         	        | License                                                                                   |
+|-----------------------------------------------|-------------------------------------------------------------------------------------------|
+| cmdline.jar									| Apache License 2.0 https://github.com/remkop/picocli/blob/master/LICENSE 					|
+| docking-frames-common.jar						| GNU Lesser General Public License, version 2.1 http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html	|
+| docking-frames-core.jar						| GNU Lesser General Public License, version 2.1 http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html|
+| freemarker.jar								| Apache License Version 2.0 https://freemarker.apache.org/docs/app_license.html			|
+| jython.jar									| PSF License v2 https://github.com/jythontools/jython/blob/master/LICENSE.txt				|
+| simple-xml-2.7.1.jar							| The Apache Software License, Version 2.0 http://www.apache.org/licenses/LICENSE-2.0.txt 	|
