@@ -5,6 +5,18 @@ See the following links and release notes for additional information.
  - [Welcome to MPLAB Harmony 3](https://github.com/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/wiki)
  - [www.microchip.com/harmony](https://www.microchip.com/harmony)
 
+## MPLAB® Harmony 3 Configurator Release v3.3.5
+
+### New Features and Fixes
+- Now Customers are notified for latest MHC updates and news feeds
+- IPCF file generation issue has been fixed and creates correct xml define tag
+
+### Known Issues
+- None
+
+### Development Tools
+- [MPLAB X IDE v5.30](https://www.microchip.com/mplab/mplab-x-ide)
+
 ## MPLAB® Harmony 3 Configurator Release v3.3.4
 
 ### New Features and Fixes
