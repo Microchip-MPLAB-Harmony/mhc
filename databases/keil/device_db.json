@@ -1,0 +1,30 @@
+{
+    "device_arch":
+    {
+        "CORTEX-M0PLUS":{"cpu_type":"\"Cortex-M0+\"",
+                         "rvdsVP":"0",
+                         "dll_name":"SARMCM3.DLL",
+                         "dll_args":"",
+                         "dlg_dll_name":"ARMCM1.DLL",
+                         "dlg_dll_args":"-pCM0+"},
+        "CORTEX-M4": {"cpu_type":"\"Cortex-M4\"",
+                      "rvdsVP":"2",
+                      "dll_name":"SARMCM3.DLL",
+                      "dll_args":"-MPU",
+                      "dlg_dll_name":"CM.DLL",
+                      "dlg_dll_args":"-pCM4"},
+        "CORTEX-M7": {"cpu_type":"\"Cortex-M7\"",
+                      "rvdsVP":"3",
+                      "dll_name":"SARMCM3.DLL",
+                      "dll_args":"-MPU",
+                      "dlg_dll_name":"CM.DLL",
+                      "dlg_dll_args":"-pCM7"},
+        "CORTEX-M23":{"cpu_type":"\"Cortex-M23\"",
+                      "rvdsVP":"0",   
+                      "dll_name":"SARMV8M.DLL",
+                      "dll_args":"-MPU",
+                      "dlg_dll_name":"CM.DLL",
+                      "dlg_dll_args":"-pCM23"}
+
+    }
+}

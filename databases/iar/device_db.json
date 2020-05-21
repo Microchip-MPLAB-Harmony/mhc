@@ -1,0 +1,34 @@
+{
+    "device_alt_name":
+    {
+        "ATSAME70J19B": "ATSAME70J19xB",
+        "ATSAME70J20B": "ATSAME70J20xB",
+        "ATSAME70J21B": "ATSAME70J21xB",
+        "ATSAME70N19B": "ATSAME70N19xB",
+        "ATSAME70N20B": "ATSAME70N20xB",
+        "ATSAME70N21B": "ATSAME70N21xB",
+        "ATSAME70Q19B": "ATSAME70Q19xB",
+        "ATSAME70Q20B": "ATSAME70Q20xB",
+        "ATSAME70Q21B": "ATSAME70Q21xB",
+        "ATSAMA5D225CD1M": "ATSAMA5D22",
+        "ATSAMA5D27CD1G": "ATSAMA5D27",
+        "ATSAMA5D27CD5M": "ATSAMA5D27",
+        "ATSAMA5D27CLD1G": "ATSAMA5D27",
+        "ATSAMA5D27CLD2G": "ATSAMA5D27",
+        "ATSAMA5D28CD1G": "ATSAMA5D28",
+        "ATSAMA5D28CLD1G": "ATSAMA5D28",
+        "ATSAMA5D28CLD2G": "ATSAMA5D28",
+        "SAM9X60D1G": "SAM9X60",
+        "SAM9X60D5M": "SAM9X60",
+        "SAM9X60D6K": "SAM9X60"
+    },
+    "device_arch":
+    {
+        "CORTEX-M0PLUS":{"type":"mcu", "core": "35", "dsp": "0", "fpu2": "0", "nr_regs": "0", "neon": "0", "tz": "0", "mode": "1"},
+        "CORTEX-M4": {"type":"mcu", "core": "39", "dsp": "1", "fpu2": "4", "nr_regs": "1", "neon": "0", "tz": "0", "mode": "1"},
+        "CORTEX-M7": {"type":"mcu", "core": "41", "dsp": "1", "fpu2": "7", "nr_regs": "1", "neon": "0", "tz": "0", "mode": "1"},
+        "CORTEX-M23":{"type":"mcu", "core": "58", "dsp": "0", "fpu2": "0", "nr_regs": "0", "neon": "0", "tz": "1", "mode": "1"},
+        "CORTEX-A5": {"type":"mpu", "core": "50", "dsp": "0", "fpu2": "5", "nr_regs": "2", "neon": "1", "tz": "1", "mode": "1"},
+        "ARM926EJS": {"type":"mpu", "core": "12", "dsp": "0", "fpu2": "0", "nr_regs": "0", "neon": "0", "tz": "0", "mode": "0"}
+    }
+}

@@ -1,9 +1,30 @@
+---
+title: Release notes
+nav_order: 99
+---
+
 # MPLAB® Harmony 3 Release Notes
 
 See the following links and release notes for additional information.
  - [Read-me File](./readme.md)
  - [Welcome to MPLAB Harmony 3](https://github.com/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/wiki)
  - [www.microchip.com/harmony](https://www.microchip.com/harmony)
+
+## MPLAB® Harmony 3 Configurator Release v3.4.0
+
+### New Features and Fixes
+- Added support for TrustZone to create secure and non-secure project
+- Added support to generate manifest file containing the harmony packages and its version information
+- Added support to generate IAR Embedded Workbench and Keil uVision project
+- Added support to include harmony configuration files as part of packaging project into a zip file
+- Updated project group icon for easier identification
+
+
+### Known Issues
+- None
+
+### Development Tools
+- [MPLAB X IDE v5.40](https://www.microchip.com/mplab/mplab-x-ide)
 
 ## MPLAB® Harmony 3 Configurator Release v3.3.5
 
