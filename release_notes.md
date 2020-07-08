@@ -10,6 +10,20 @@ See the following links and release notes for additional information.
  - [Welcome to MPLAB Harmony 3](https://github.com/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/wiki)
  - [www.microchip.com/harmony](https://www.microchip.com/harmony)
 
+## MPLAB® Harmony 3 Configurator Release v3.4.1
+
+### New Features and Fixes
+- Fixed duplicate file entries in MPLABX mode code generation
+- Fixed issue of code generation in  headless mode if the project name is empty.
+- Fixed issue in resolving file path in Linux OS.
+- Fixed issue of MHC not launching when user name contains accented or Chinese characters
+
+### Known Issues
+- None
+
+### Development Tools
+- [MPLAB X IDE v5.40](https://www.microchip.com/mplab/mplab-x-ide)
+
 ## MPLAB® Harmony 3 Configurator Release v3.4.0
 
 ### New Features and Fixes

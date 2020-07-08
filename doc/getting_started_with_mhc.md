@@ -1,6 +1,6 @@
 ---
 title: Getting started with MHC
-parent: MPLAB Harmony 3 Configurator Package
+parent: Harmony 3 Configurator Package
 has_toc: true
 nav_order: 1
 ---
