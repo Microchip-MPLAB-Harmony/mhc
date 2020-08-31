@@ -31,9 +31,8 @@ components from downloaded packages and configuring them for the developer’s
 application. And, the built-in code generator produces the libraries and
 application starter code (usually in source form), based on the options chosen.
 
-- [Getting started with MHC](doc/getting_started_with_mhc.md)
+- [Getting started with MHC](doc/readme.md)
 - [Release Notes](release_notes.md)
-- [MPLAB® Harmony 3 Configurator Wiki](https://github.com/Microchip-MPLAB-Harmony/mhc/wiki)
 
 # Contents Summary
 

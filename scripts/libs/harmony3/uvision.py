@@ -256,7 +256,7 @@ class UVisionProject(object):
         keil_config.update(device_db["device_arch"].get(arch))
 
         #copy compiler includes and defines
-        keil_config["compiler_macros"] = self._get_defines("compiler")
+        keil_config["compiler_defines"] = self._get_defines("compiler")
         keil_config["compiler_includes"] = self._get_includes("compiler")
 
         #copy assembler includes and defines

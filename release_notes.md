@@ -10,6 +10,39 @@ See the following links and release notes for additional information.
  - [Welcome to MPLAB Harmony 3](https://github.com/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/wiki)
  - [www.microchip.com/harmony](https://www.microchip.com/harmony)
 
+## MPLAB® Harmony 3 Configurator Release v3.5.1
+
+### New Features and Fixes
+- Added project manifest file to MPLAB X Project.
+- Added warning dialog if incompatible version of  MPLAB Harmony Configurator plugin is installed.
+- Bug fixes.
+
+### Known Issues
+- None
+
+### Development Tools
+- [MPLAB X IDE v5.40](https://www.microchip.com/mplab/mplab-x-ide)
+
+## MPLAB® Harmony 3 Configurator Release v3.5.0
+
+### New Features and Fixes
+- Added support to report MPLAB X analytics.
+- TrustZone-M enhancements and bug fixes.
+- Added project group feature to support TrustZone-M project.
+- Added support to display compiler information in the manifest file.
+- Added support to warn user about differences between Manifest and local Packages copies.
+- Added support to list only used modules of a project in manifest file.
+- Fixed Preprocessor macro update issue for TrustZone-M projects.
+- Updated MHC NBM v3.6.0 to support new MHC changes.
+- Bug fixes.
+
+
+### Known Issues
+- None
+
+### Development Tools
+- [MPLAB X IDE v5.40](https://www.microchip.com/mplab/mplab-x-ide)
+
 ## MPLAB® Harmony 3 Configurator Release v3.4.1
 
 ### New Features and Fixes
