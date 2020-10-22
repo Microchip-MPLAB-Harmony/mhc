@@ -3,7 +3,7 @@ parent: MPLAB Harmony 3 Configurator (MHC) Overview
 title: Project Manifest
 has_children: false
 has_toc: false
-nav_order: 5
+nav_order: 6
 ---
 
 # Project Manifest

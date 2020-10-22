@@ -3,7 +3,7 @@ parent: MPLAB Harmony 3 Configurator (MHC) Overview
 title: Project Group
 has_children: false
 has_toc: false
-nav_order: 6
+nav_order: 7
 ---
 
 ## Simplifying Project Graphs with Groups

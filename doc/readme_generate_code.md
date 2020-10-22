@@ -3,7 +3,7 @@ parent: MPLAB Harmony 3 Configurator (MHC) Overview
 title: Generate Code
 has_children: false
 has_toc: false
-nav_order: 4
+nav_order: 5
 ---
 
 ## Saving Configuration and Generating code
