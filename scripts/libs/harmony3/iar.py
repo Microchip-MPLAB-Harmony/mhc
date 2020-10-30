@@ -110,8 +110,8 @@ class IARProjectXML(object):
 
     @classmethod
     def _add_file_node(cls, root, h3_file):
-        group_path_list = h3_file.logical_path.split("/")
-        parent, remaining_path_list = cls._find_group_node(root, group_path_list)
+        parent, remaining_path_list = cls._find_group_node(root,
+                                                           cls._splitpath(h3_file.logical_path))
         if remaining_path_list:
             parent = cls._create_group_node_tree(parent, remaining_path_list)
         IARProjectXML._create_named_node(parent,
@@ -157,6 +157,22 @@ class IARProjectXML(object):
 
         cls._indent_element(root_node, 1)
         return root_node
+
+    @classmethod
+    def _splitpath(cls, full_path):
+        path_comp = []
+        while 1:
+            parts = os.path.split(full_path)
+            if parts[0] == full_path:  # sentinel for absolute paths
+                path_comp.insert(0, parts[0])
+                break
+            elif parts[1] == full_path: # sentinel for relative paths
+                path_comp.insert(0, parts[1])
+                break
+            else:
+                full_path = parts[0]
+                path_comp.insert(0, parts[1])
+        return path_comp
 
     @classmethod
     def get_formatted_file_groups(cls, project_state):

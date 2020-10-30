@@ -10,15 +10,26 @@ See the following links and release notes for additional information.
  - [Welcome to MPLAB Harmony 3](https://github.com/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/wiki)
  - [www.microchip.com/harmony](https://www.microchip.com/harmony)
 
+## MPLAB® Harmony 3 Configurator Release v3.6.1
+
+### New Features and Fixes
+- Fixed IAR EWARM and Keil uVision project generation.
+
+### Known Issues
+- None
+
+### Development Tools
+- [MPLAB X IDE v5.40](https://www.microchip.com/mplab/mplab-x-ide)
+
 ## MPLAB® Harmony 3 Configurator Release v3.6.0
 
 ### New Features and Fixes
-- Added component import and export capability in MHC 
+- Added component import and export capability in MHC
 - MHC project file structure has been updated to <configuration>.mhc folder.
 - Added migration support from harmony.prj to new project structure for old projects.
 - Optimized MHC code generation to reduce toolchain build time.
 - Added support to display auto scrollbars in project graph view.
-- MPLAB Harmony Configurator plugin has been updated to version 3.6.1. 
+- MPLAB Harmony Configurator plugin has been updated to version 3.6.1.
 - Bug fixes.
 
 ### Known Issues

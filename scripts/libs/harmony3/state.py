@@ -93,7 +93,7 @@ class H3ProjectState(object):
 
 
     def _get_project_relative_file_path(self, file_object):
-        file_abs_path = path.normpath(path.join(file_object.actualDestPath,
+        file_abs_path = path.normpath(path.join(str(file_object.actualDestPath),
                                                 file_object.outputName))
         return path.relpath(file_abs_path, self.project_path)
 
@@ -104,7 +104,7 @@ class H3ProjectState(object):
             if project_file.type == file_type:
                 file_list.append(H3File(
                     self._get_project_relative_file_path(project_file),
-                    project_file.projectPath))
+                    str(project_file.projectPath)))
         return file_list
 
     def _get_linker_script(self):
@@ -201,7 +201,7 @@ class H3ProjectState(object):
         #Library file paths are relative to the project configuration path
         # We need to make the path relative to the project path
         libraries = set()
-        base_path = self.project_state.files[0].actualDestPath.split("src")[0]
+        base_path = str(self.project_state.files[0].actualDestPath).split("src")[0]
         config_path = path.join(base_path,
                                 "src",
                                 "config",
