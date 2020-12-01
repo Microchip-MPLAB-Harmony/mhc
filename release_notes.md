@@ -10,6 +10,22 @@ See the following links and release notes for additional information.
  - [Welcome to MPLAB Harmony 3](https://github.com/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/wiki)
  - [www.microchip.com/harmony](https://www.microchip.com/harmony)
 
+## MPLAB® Harmony 3 Configurator Release v3.6.2
+
+### New Features and Fixes
+- Harmony MPLAB X plugin has been renamed to MPLAB® Harmony 3 Launcher.
+- MPLAB® Harmony 3 Launcher plugin has been updated to version 3.6.2.
+- Fixed issues related to new project creation wizard.
+- Removed MHC version from module dependecy in project manifest file. 
+- MHC headless mode code generation command has been updated.
+- Added dialog informing user about the migration to new project configuration structure.
+
+### Known Issues
+- None
+
+### Development Tools
+- [MPLAB X IDE v5.45](https://www.microchip.com/mplab/mplab-x-ide)
+
 ## MPLAB® Harmony 3 Configurator Release v3.6.1
 
 ### New Features and Fixes
