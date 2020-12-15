@@ -10,6 +10,11 @@ See the following links and release notes for additional information.
  - [Welcome to MPLAB Harmony 3](https://github.com/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/wiki)
  - [www.microchip.com/harmony](https://www.microchip.com/harmony)
 
+## MPLAB® Harmony 3 Configurator Release v3.6.5
+
+### New Features and Fixes
+- Fixed MPLAB X project issues related to MHC code generation.
+
 ## MPLAB® Harmony 3 Configurator Release v3.6.4
 
 ### New Features and Fixes
