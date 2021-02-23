@@ -10,6 +10,19 @@ See the following links and release notes for additional information.
  - [Welcome to MPLAB Harmony 3](https://github.com/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/wiki)
  - [www.microchip.com/harmony](https://www.microchip.com/harmony)
 
+## MPLAB® Harmony 3 Configurator Release v3.7.0
+
+### New Features and Fixes
+- MPLAB® Harmony 3 Launcher has been updated to v3.6.3 (MPLAB X Plugin)
+- Optimized MHC startup time.
+- Fixed export button enable issue in export dialog when path is selected first.
+- Fixed issue of Incorrect Library path in MHC Headless mode code generation.
+- Fixed Setting key duplication issue in MHC Headless mode code generation.
+- Fixed issue of user value update in read only string symbol when string panel lost the focus.
+- Prefix and trailing delimiters from setting values have been removed and sorted to maintain a single order in setting symbols.
+- In Project Manifest, adding "unknown" as version for packages not cloned as git repositories
+- Fixed other minor issues.
+
 ## MPLAB® Harmony 3 Configurator Release v3.6.5
 
 ### New Features and Fixes
