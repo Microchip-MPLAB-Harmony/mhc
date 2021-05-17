@@ -68,6 +68,10 @@ Harmony 3 configurator and Content manager uses following open sources libraries
 | [org.eclipse.jgit-4.11.0.201803080745-r.jar](https://mvnrepository.com/artifact/org.eclipse.jgit/org.eclipse.jgit/4.11.0.201803080745-r)   	| 4.11.0.201803080745-r | Eclipse Distribution License (New BSD License)                                            |
 | [slf4j-api-1.7.25.jar](https://mvnrepository.com/artifact/org.slf4j/slf4j-api/1.7.2)                         	| 1.7.25              | MIT License http://www.opensource.org/licenses/mit-license.php                            |
 | [slf4j-simple-1.7.25.jar](https://mvnrepository.com/artifact/org.slf4j/slf4j-simple/1.7.25)                      	| 1.7.25              | MIT License http://www.opensource.org/licenses/mit-license.php                            |
+| [jfoenix-8.0.10.jar](https://mvnrepository.com/artifact/com.jfoenix/jfoenix/8.0.10)                      	| 8.0.10              | Apache Version 2.0 http://www.apache.org/licenses/LICENSE-2.0.txt                            |
+| [fontawesomefx-8.9.jar](https://mvnrepository.com/artifact/de.jensd/fontawesomefx/8.9)                      	| 8.9              | Apache License, Version 2.0 http://www.apache.org/licenses/LICENSE-2.0                            |
+| [controlsfx-8.40.18.jar](https://mvnrepository.com/artifact/org.controlsfx/controlsfx/8.40.18)                      	| 8.40.18              | The 3-Clause BSD License http://www.opensource.org/licenses/bsd-license.php                            |
+| [reactfx-2.0-M5.jar](https://mvnrepository.com/artifact/org.reactfx/reactfx/2.0-M5)                      	| 2.0-M5              | The BSD 2-Clause License http://opensource.org/licenses/BSD-2-Clause                            |
 ____
 
 [![License](https://img.shields.io/badge/license-Harmony%20license-orange.svg)](https://github.com/Microchip-MPLAB-Harmony/mhc/blob/master/mplab_harmony_license.md)

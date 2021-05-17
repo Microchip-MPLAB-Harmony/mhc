@@ -10,6 +10,13 @@ See the following links and release notes for additional information.
  - [Welcome to MPLAB Harmony 3](https://github.com/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/wiki)
  - [www.microchip.com/harmony](https://www.microchip.com/harmony)
 
+## MPLAB® Harmony 3 Configurator Release v3.7.2
+
+### New Features and Fixes
+- Fixed issue of churning in harmony configuration yml files when configuration is saved without any change.
+- Fixed issue of inconsistent use of forward and backslash in path in project.yml file.
+
+
 ## MPLAB® Harmony 3 Configurator Release v3.7.1
 
 ### New Features and Fixes

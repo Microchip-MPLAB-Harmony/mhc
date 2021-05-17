@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <FamilyDefinitions>
     <Family name="PIC32MX" regex="^PIC32MX.*" template="np_templates/xc32_template"/>
-    <Family name="PIC32MZ" regex="^PIC32MZ.*|^WFI32.*" template="np_templates/xc32_template"/>
+    <Family name="PIC32MZ" regex="^PIC32MZ.*" template="np_templates/xc32_template"/>
     <Family name="PIC32C" regex="^PIC32C.*" template="np_templates/gcc_template"/>
     <Family name="ATSAM" regex="^ATSAM.*" template="np_templates/gcc_template"/>
     <Family name="SAM" regex="^SAM.*" template="np_templates/gcc_template"/>
     <Family name="PIC32MK" regex="^PIC32MK.*" template="np_templates/xc32_template"/>
+    <Family name="WFI" regex="^WFI32.*" template="np_templates/xc32_template"/>
+    <Family name="WBZ" regex="^WBZ45.*" template="np_templates/xc32_template"/>
 </FamilyDefinitions>
