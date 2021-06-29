@@ -10,6 +10,12 @@ See the following links and release notes for additional information.
  - [Welcome to MPLAB Harmony 3](https://github.com/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/wiki)
  - [www.microchip.com/harmony](https://www.microchip.com/harmony)
 
+## MPLAB® Harmony 3 Configurator Release v3.8.0
+
+### New Feature
+- Added feature to support package level plugins.
+
+
 ## MPLAB® Harmony 3 Configurator Release v3.7.2
 
 ### New Features and Fixes
