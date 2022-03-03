@@ -10,4 +10,5 @@
     <Family name="WFI" regex="^WFI32.*" template="np_templates/xc32_template"/>
     <Family name="WBZ" regex="^WBZ[34]5.*" template="np_templates/xc32_template"/>
     <Family name="WLR" regex="^WLR.*" template="np_templates/gcc_template"/>
+    <Family name="LAN" regex="^LAN9255.*" template="np_templates/gcc_template"/>
 </FamilyDefinitions>
